@@ -17,5 +17,5 @@ class Config:
     MAIL_SERVER = 'smtp.mailtrap.io'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = 'erdal.nayir2001@gmail.com'
-    MAIL_PASSWORD = '*2001*2001*'
+    MAIL_USERNAME = 
+    MAIL_PASSWORD = 
