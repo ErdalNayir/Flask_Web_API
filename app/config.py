@@ -6,7 +6,7 @@ class Config:
     SECRET_KEY = 'RxPmeFGmr6dEld19HY7J8Cu4WZi7QbVF'
 
     # Veritabanı bağlantı ayarları
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://erdal:*2001*2001*@localhost/yakuperdal'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://erdal:[PasswordHere]@localhost/yakuperdal'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # JWT yapılandırması
