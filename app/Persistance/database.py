@@ -7,7 +7,7 @@ from ..extensions import db
 
 def init_app(app):
     # Veritabanı bağlantı bilgilerini yapılandırma dosyasından alın
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://erdal:*2001*2001*@localhost/yakuperdal'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://erdal:[PasswordHere]@localhost/yakuperdal'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
     # Flask uygulamasını veritabanına bağlayın
